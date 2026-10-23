@@ -30,4 +30,3 @@ Do not fill in style, tone, or audience from assumption. Include those fields on
 > **Audience:** [Optional; specify only if known or requested]
 >
 > **Response:** [Requested content and form]
-
