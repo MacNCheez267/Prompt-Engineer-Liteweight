@@ -1,0 +1,7 @@
+interface:
+  display_name: "Prompt Engineer Liteweight"
+  short_description: "Assess and revise prompts while preserving intent."
+  default_prompt: "Use $prompt-engineer-liteweight to assess and refine this prompt: [paste prompt]"
+policy:
+  allow_implicit_invocation: true
+
