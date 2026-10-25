@@ -11,18 +11,19 @@ Modes may be combined. If none is specified, the skill defaults to Refine. It re
 ## Workflow
 
 1. Identify the user's request.
+> Example: Refine this prompt, "Lorem ipsum."
 
-2. Assess the initial prompt using five dimensions: clarity, specificity, context, completeness, and structure.
+3. Assess the initial prompt using five dimensions: clarity, specificity, context, completeness, and structure.
 
-3. Ask a few concise questions if a material ambiguity prevents a faithful revision; otherwise, proceed with a labeled assumption or leave the detail open.
+4. Ask a few concise questions if a material ambiguity prevents a faithful revision; otherwise, proceed with a labeled assumption or leave the detail open.
 
-4. Recommend a suitable framework, or none.
+5. Recommend a suitable framework, or none.
 
-5. Revision of the prompt.
+6. Revision of the prompt.
 
-6. Check that the result preserves the user’s intent and requirements without adding unsupported details.
+7. Check that the result preserves the user’s intent and requirements without adding unsupported details.
 
-7. Present the revised prompt. Assessment score and change summary are separate.
+8. Present the revised prompt. Assessment score and change summary are separate.
 
 ```mermaid
 graph TD;
