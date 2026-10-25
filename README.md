@@ -10,30 +10,29 @@ Modes may be combined. If none is specified, the skill defaults to Refine. It re
 
 ## Workflow
 
-1. Identify the user's request. Mainly checks for mode first.
-> Example - Refine this prompt, "Lorem Ipsum"
+1. Identify the user's request.
 
 2. Assess the initial prompt using five dimensions: clarity, specificity, context, completeness, and structure.
-> Overall Result: 2/10 - Fucking Terrible
 
-3. Recommend a suitable framework, or none.
-> Example - RTCCO (Role, Task, Context, Constraints, Output)
+3. Ask one concise question if a material ambiguity prevents a faithful revision; otherwise, proceed with a labeled assumption or leave the detail open.
 
-4. Ask one concise question if a material ambiguity prevents a faithful revision; otherwise proceed with a labeled assumption or leave the detail open.
-> Example - Questions for missing details
+4. Recommend a suitable framework, or none.
 
-5. Revise and check that the result preserves the user’s intent and requirements without adding unsupported details.
-> Does a pre-delivery check before finalizing
+5. Revision of the prompt.
 
-6. Present the revised prompt. Assessment score and change summary are separate.
-> Final output delivered
+6. Check that the result preserves the user’s intent and requirements without adding unsupported details.
+
+7. Present the revised prompt. Assessment score and change summary are separate.
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    Identify-->Assess;
+    Assess-->Question;
+    Assess-->Recommend;
+    Question-->Recommend;
+    Recommend-->Revision;
+    Revision-->Check;
+    Check-->Output;
 ```
 
 ## Modes
