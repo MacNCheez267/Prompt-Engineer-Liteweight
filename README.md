@@ -1,6 +1,6 @@
 # Prompt Engineer Liteweight Skill
 
-Compact guide for assessing and revising prompt text while preserving the user’s intent. Includes clear boundaries, distinct 5 revision modes, and 3 practical framework guidance. Well suited for everyday prompt editing.
+Compact skill for assessing and revising prompt text while preserving the user’s intent. Includes clear boundaries, distinct 5 revision modes, and 3 practical framework guidance. Well suited for everyday prompt editing.
 
 ## How to Use
 
