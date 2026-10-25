@@ -28,6 +28,14 @@ Modes may be combined. If none is specified, the skill defaults to Refine. It re
 6. Present the revised prompt. Assessment score and change summary are separate.
 > Final output delivered
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ## Modes
 
 | Mode | Example |
