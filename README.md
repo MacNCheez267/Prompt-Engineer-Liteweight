@@ -14,7 +14,7 @@ Modes may be combined. If none is specified, the skill defaults to Refine. It re
 
 2. Assess the initial prompt using five dimensions: clarity, specificity, context, completeness, and structure.
 
-3. Ask one concise question if a material ambiguity prevents a faithful revision; otherwise, proceed with a labeled assumption or leave the detail open.
+3. Ask a few concise questions if a material ambiguity prevents a faithful revision; otherwise, proceed with a labeled assumption or leave the detail open.
 
 4. Recommend a suitable framework, or none.
 
@@ -57,7 +57,7 @@ graph TD;
 > October 24, 2026
 
 ## License
-> [MIT License](LICENSE).
+> [MIT](LICENSE) License.
 
 ## Compatible Agents
-> [OpenAI; (Codex | ChatGPT)](https://openai.com)
+> OpenAI; [(Codex | ChatGPT)](https://openai.com)
