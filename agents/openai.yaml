@@ -1,0 +1,6 @@
+interface:
+  display_name: "Presentation Maker"
+  short_description: "Create, edit, and review presentations across platforms"
+  default_prompt: "Use $presentation-maker to create, edit, or review a presentation."
+policy:
+  allow_implicit_invocation: true
