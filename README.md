@@ -1,12 +1,15 @@
 # Prompt Engineer Liteweight Skill
 
-Compact skill for assessing and revising prompt text while preserving the user’s intent. Includes clear boundaries, distinct 5 revision modes, and 3 practical framework guidance. Well-suited for everyday prompt editing.
+Compact skill for assessing and revising prompt text while preserving main intent. Includes clear boundaries, distinct 5 revision modes, and 3 practical framework guidance. Well-suited for everyday / complex prompt editing.
 
-## How to Use
+## Usage
 
 Provide the prompt and a revision mode: Polish, Refine, Shorten, Restructure, or Critique.
 
-Modes may be combined. If none is specified, the skill defaults to Refine. It recommends a framework only when one would improve clarity.
+It recommends a framework only when one would improve clarity.
+
+> [!TIP]
+> Modes may be combined. If none is specified, the skill defaults to Refine.
 
 ## Workflow
 
@@ -14,16 +17,16 @@ Modes may be combined. If none is specified, the skill defaults to Refine. It re
 > Example: Refine this prompt, "Lorem ipsum."
 
 3. Assess the initial prompt using five dimensions: clarity, specificity, context, completeness, and structure.
+> if the request did not clarify specifics, it will ask a few concise questions until missing gaps are complete then proceed.
 
-4. Ask a few concise questions if a material ambiguity prevents a faithful revision; otherwise, proceed with a labeled assumption or leave the detail open.
-
-5. Recommend a suitable framework, or none.
+5. Recommend a suitable framework if useful.
 
 6. Revision of the prompt.
 
-7. Check that the result preserves the user’s intent and requirements without adding unsupported details.
+7. Performs checking that the result preserves the user’s intent and requirements without adding unsupported details before delivering.
 
-8. Present the revised prompt. Assessment score and change summary are separate.
+8. Present the revised prompt.
+> Assessment score and change summary are provided seperately.
 
 ```mermaid
 graph TD;
@@ -54,11 +57,10 @@ graph TD;
 | **CO-STAR** | Suits writing, teaching, and communication when audience, style, or tone materially shape the result. Keep style and audience optional unless supplied; ask if missing details are consequential. |
 | **RTF** | Suits simple, focused prompts where role, task, and format suffice. |
 
-## Release Date
-> October 24, 2026
-
-## License
-> [MIT](LICENSE) License.
-
 ## Compatible Agents
-> OpenAI; [(Codex | ChatGPT)](https://openai.com)
+- OpenAI; [(Codex | ChatGPT)](https://openai.com)
+- [ ] Anthropic; [(Claude | Claude Code)](google.com)
+
+## Info
+- Initial Release Date - October 24, 2026
+- License - [MIT](LICENSE) License.
